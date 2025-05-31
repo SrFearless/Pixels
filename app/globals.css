@@ -72,3 +72,33 @@
   animation: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 }
 
+@font-face {
+  font-family: 'PixelMedieval';
+  src: url('/fonts/pixel-medieval.ttf') format('truetype');
+}
+
+.font-pixel {
+  font-family: 'PixelMedieval', monospace;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
+
+body {
+  background-color: #1a1a1a;
+}
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.border-medieval {
+  border-image: url('/images/border-pattern.png') 30 round;
+}
+
+.header-glow {
+  box-shadow: 0 4px 20px rgba(210, 125, 45, 0.3);
+}
