@@ -10,7 +10,7 @@ export default function AboutPage() {
         {/* Cabeçalho */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-pixel text-amber-400 mb-4 tracking-wider">
-            Oque você vai Encontrar aqui ?
+            Oque você vai Encontrar ?
           </h1>
           <div className="w-32 h-1 bg-amber-600 mx-auto mb-6"></div>
           <p className="font-pixel text-amber-200 max-w-2xl mx-auto">

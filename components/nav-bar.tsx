@@ -38,6 +38,15 @@ export function NavBar() {
           <SheetContent side="left" className="bg-stone-800 border-r-2 border-amber-700">
             <nav className="grid gap-6 text-lg mt-8">
               <Link 
+                href="https://portfolio-pessoal-mu-virid.vercel.app" 
+                className={cn(
+                  "flex items-center gap-3 p-3 rounded-md font-pixel text-purple-500 hover:bg-amber-900/50 bg-amber-900/30 border-l-4 border-amber-500",
+                )}
+                onClick={() => setIsOpen(false)}
+              >
+                <span>Voltar ao Portifólio</span>
+              </Link>
+              <Link 
                 href="/" 
                 className={cn(
                   "flex items-center gap-3 p-3 rounded-md font-pixel text-amber-200 hover:bg-amber-900/50",
@@ -73,6 +82,14 @@ export function NavBar() {
 
         {/* Menu desktop */}
         <nav className="hidden md:flex items-center gap-6">
+          <Link 
+            href="https://portfolio-pessoal-mu-virid.vercel.app" 
+            className={cn(
+              "font-pixel text-purple-500 hover:text-purple-200 px-3 py-1 rounded-md transition-colors bg-amber-900/30 border-l-4 border-amber-500",
+            )}
+          >
+            Voltar ao Portifólio
+          </Link>
           <Link 
             href="/" 
             className={cn(
