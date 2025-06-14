@@ -54,16 +54,6 @@ export function NavBar() {
                 )}
                 onClick={() => setIsOpen(false)}
               >
-                <span>🏰 Início</span>
-              </Link>
-              <Link 
-                href="/galeria" 
-                className={cn(
-                  "flex items-center gap-3 p-3 rounded-md font-pixel text-amber-200 hover:bg-amber-900/50",
-                  pathname === "/galeria" && "bg-amber-900/30 border-l-4 border-amber-500"
-                )}
-                onClick={() => setIsOpen(false)}
-              >
                 <span>🎨 Galeria</span>
               </Link>
               <Link 
@@ -95,15 +85,6 @@ export function NavBar() {
             className={cn(
               "font-pixel text-amber-300 hover:text-amber-200 px-3 py-1 rounded-md transition-colors",
               pathname === "/" && "bg-amber-900/30 border-b-2 border-amber-500"
-            )}
-          >
-            🏰 Início
-          </Link>
-          <Link 
-            href="/galeria" 
-            className={cn(
-              "font-pixel text-amber-300 hover:text-amber-200 px-3 py-1 rounded-md transition-colors",
-              pathname === "/galeria" && "bg-amber-900/30 border-b-2 border-amber-500"
             )}
           >
             🎨 Galeria

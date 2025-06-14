@@ -5,11 +5,11 @@ import { Button } from "@/components/ui/button"
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen bg-stone-900 bg-[url('/images/medieval-bg.jpg')] bg-cover bg-fixed">
+    <div className="min-h bg-stone-900 bg-[url('/images/medieval-bg.jpg')] bg-cover bg-fixed">
       {/* NavBar e RankingMarquee seriam inseridos aqui automaticamente */}
 
       {/* Conteúdo principal */}
-      <main className="container mx-auto px-4 py-12 max-w-4xl">
+      <main className="container mx-auto px-4 py-10 max-w-4xl">
         {/* Cabeçalho */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-pixel text-amber-400 mb-4 tracking-wider">
@@ -17,7 +17,7 @@ export default function AboutPage() {
           </h1>
           <div className="w-32 h-1 bg-amber-600 mx-auto mb-6"></div>
           <p className="font-pixel text-amber-200 max-w-2xl mx-auto">
-            Conheça o criador por trás dos pixels e a jornada nesta arte digital
+          Através da minha paixão por Games eu resolvi tentar criar o meu próprio, e com essa missão começei a explorar o mundo da pixel art onde as primeiras sprites da "Galeria" são desse mini jogo.
           </p>
         </div>
 
@@ -35,16 +35,12 @@ export default function AboutPage() {
               </div>
             </div>
             <div className="w-full md:w-2/3">
-              <h2 className="text-2xl font-pixel text-amber-300 mb-4">Olá, sou Esquadramer!</h2>
+              <h2 className="text-2xl font-pixel text-amber-300 mb-4">Olá, sou Tiago da Esquadramer!</h2>
               <p className="font-pixel text-amber-100 mb-4">
-                Sou um artesão digital especializado na criação de pixel art para jogos de RPG medieval. 
-                Minha jornada começou como estudante e evoluiu para uma paixão por criar assets que 
-                contam histórias através de cada pixel.
+              Aqui apresento todas minhas pixels arts sendo elas a maioria "Animação" com ideias minhas de Personagens, Construções, Equipamentos e etc.
               </p>
               <p className="font-pixel text-amber-100">
-                Os trabalhos apresentados aqui são tanto exercícios de aprendizado quanto encomendas 
-                para projetos independentes. Cada peça é feita com atenção aos detalhes e amor pela 
-                estética retrô.
+              Apresento que plataforma eu uso para criar as pixels arts, resolução, ajustes e informações para contato caso deseja algum projeto.
               </p>
             </div>
           </div>
